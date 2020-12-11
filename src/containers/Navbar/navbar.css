@@ -1,0 +1,29 @@
+.navb {
+  background: rgba(255, 255, 255, 0.35);
+
+  padding: 0 2em;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 2.25em;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6vh;
+}
+
+.navb-links a {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.navb-logo {
+  height: 100%;
+  transform: scale(1.5) translateX(-1.5em);
+}

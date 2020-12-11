@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./containers/Navbar/Navbar";
+import Darkmode from "darkmode-js";
+import Banner from "./containers/Banner/Banner";
+import Gallery from "./containers/Gallery/Gallery";
+import Footer from "./containers/Footer/Footer";
 
+const options = {
+  bottom: "64px", // default: '32px'
+  right: "unset", // default: '32px'
+  left: "32px", // default: 'unset'
+  time: "0.5s", // default: '0.3s'
+  mixColor: "#fff", // default: '#fff'
+  backgroundColor: "#fff", // default: '#fff'
+  buttonColorDark: "#100f2c", // default: '#100f2c'
+  buttonColorLight: "#fff", // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: "🌓", // default: ''
+  autoMatchOsTheme: true, // default: true
+};
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Navbar  */}
+
+      <Navbar />
+
+      {/* Banner  */}
+
+      <Banner />
+
+      {/* Gallery */}
+      <Gallery />
+
+      {/* Footer */}
+      {/* <Footer /> */}
     </div>
   );
 }

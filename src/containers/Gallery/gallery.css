@@ -1,0 +1,36 @@
+.gallery {
+  /* background: rgb(255, 245, 180); */
+  background: #e6e6e6;
+  padding: 5rem 0;
+}
+
+.Feed {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 5rem 10rem;
+}
+
+.banner.darkmode-ignore {
+  display: block;
+}
+
+.Feed a img {
+  width: 100%;
+  display: block;
+  transition: 0.3s;
+}
+
+.Feed a img:hover {
+  transform: scale(1.05);
+}
+
+.Feed a {
+  margin: 1rem;
+}
+
+h1 {
+  color: #393e46;
+  font-family: Mistral;
+  font-size: 5rem;
+  text-align: center;
+}

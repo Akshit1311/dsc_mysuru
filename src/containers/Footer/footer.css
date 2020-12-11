@@ -1,0 +1,24 @@
+footer {
+  background: #393e46;
+  /* background: #31326f; */
+  height: 400px;
+  padding: 2rem 0;
+}
+
+.footer-logo {
+  height: 15vh;
+  display: block;
+  margin: auto;
+}
+
+.fort {
+  display: block;
+  margin: auto;
+  height: 20vh;
+}
+
+.copyright {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
