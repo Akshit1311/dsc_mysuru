@@ -4,6 +4,7 @@ import Darkmode from "darkmode-js";
 import Banner from "./containers/Banner/Banner";
 import Gallery from "./containers/Gallery/Gallery";
 import Footer from "./containers/Footer/Footer";
+import { useRef } from "react";
 
 const options = {
   bottom: "64px", // default: '32px'
@@ -22,6 +23,10 @@ const options = {
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
 function App() {
+
+  
+  const gallery = useRef(null);
+
   return (
     <div className="App">
       {/* Navbar  */}
@@ -36,7 +41,7 @@ function App() {
       <Gallery />
 
       {/* Footer */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

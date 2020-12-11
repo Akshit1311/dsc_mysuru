@@ -4,10 +4,17 @@
   padding: 5rem 0;
 }
 
-.Feed {
+.grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 5rem 10rem;
+}
+
+.grid > img {
+  width: 80%;
+  height: 400px;
+  margin: 1em;
+  object-fit: cover;
 }
 
 .banner.darkmode-ignore {

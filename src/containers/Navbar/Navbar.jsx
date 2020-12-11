@@ -10,11 +10,9 @@ const Navbar = () => {
     <header className="navb darkmode-activated">
       <img src={Logo} alt="logo" className="navb-logo" />
       <div className="navb-links">
-        <a href="">Home</a>
-        <a href="">Home</a>
-        <a href="">Home</a>
-        <a href="">Home</a>
-        <a href="">Home</a>
+        <a href="#">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
       </div>
     </header>
   );

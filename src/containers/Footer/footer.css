@@ -1,7 +1,6 @@
 footer {
   background: #393e46;
   /* background: #31326f; */
-  height: 400px;
   padding: 2rem 0;
 }
 
@@ -21,4 +20,18 @@ footer {
   color: white;
   font-family: sans-serif;
   text-align: center;
+}
+
+.soc-icons .fa {
+  color: white;
+  font-size: 2.25rem;
+  padding: 1em;
+}
+
+.soc-icons {
+  width: 100%;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

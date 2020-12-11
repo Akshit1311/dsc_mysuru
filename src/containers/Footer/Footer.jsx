@@ -11,8 +11,15 @@ const Footer = () => {
     <footer>
       <img src={Typo} className="footer-logo" alt="" />
       <img src={Fort} alt="" className="fort" />
-      <i className="fa fa-facebook" aria-hidden="true"></i>
-      Copyright © {date} Designed by fourTwo
+      <br />
+
+      <div className="soc-icons">
+        <i className="fa fa-instagram"></i>
+        <i className="fa fa-facebook"></i>
+        <i className="fa fa-youtube"></i>
+      </div>
+
+      <div className="copyright">Copyright © {date} Designed by fourTwo</div>
     </footer>
   );
 };
