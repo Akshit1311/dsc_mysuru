@@ -12,7 +12,7 @@
 
 .grid > img {
   width: 80%;
-  height: 400px;
+  height: 350px;
   margin: 1em;
   object-fit: cover;
 }

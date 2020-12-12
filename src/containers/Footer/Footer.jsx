@@ -14,9 +14,22 @@ const Footer = () => {
       <br />
 
       <div className="soc-icons">
-        <i className="fa fa-instagram"></i>
-        <i className="fa fa-facebook"></i>
-        <i className="fa fa-youtube"></i>
+        <i
+          className="fa fa-instagram"
+          onClick={() => {
+            window.open("https://www.instagram.com/mysuru/");
+          }}
+        ></i>
+        <i
+          className="fa fa-facebook"
+          onClick={() => window.open("https://www.facebook.com/mysuru")}
+        ></i>
+        <i
+          className="fa fa-youtube"
+          onClick={() => {
+            window.open("https://www.youtube.com/watch?v=NZTlnvB7Gjo");
+          }}
+        ></i>
       </div>
 
       <div className="copyright">Copyright © {date} Designed by fourTwo</div>

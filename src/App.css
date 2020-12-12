@@ -9,8 +9,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+
 body {
   height: 300vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
 }
 
 .darkmode-toggle {

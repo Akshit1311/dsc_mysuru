@@ -1,0 +1,100 @@
+.about {
+  padding: 5rem 0;
+}
+
+.about h1 {
+  /* color: #9d5716; */
+  color: #16697a;
+}
+
+.active-place {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.info {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-grid {
+  width: 100%;
+  left: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.inactive-place {
+  width: 97%;
+  display: block;
+  margin: 0.3rem auto;
+  border-radius: 7px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  padding: 2rem 5rem;
+}
+
+.col {
+  width: 50%;
+  /* background-color: red; */
+  margin: 1rem;
+}
+
+.place-title {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 3rem;
+  /* color: #e06f1f; */
+  color: #16697a;
+}
+
+.rating {
+  background: #4caf50;
+  color: white;
+  font-weight: 700;
+  padding: 0.25rem 1rem;
+  border-radius: 0.75rem;
+}
+
+.location .fa {
+  color: rgb(228, 62, 32);
+  font-size: 1.25rem;
+  margin: 0 0.25rem;
+  margin-left: 0.75rem;
+}
+
+.place-content {
+  line-height: 2rem;
+  font-weight: 600;
+  color: rgb(63, 62, 62);
+}
+
+.place-btn {
+  padding: 0.75rem 1rem;
+  font-weight: 900;
+  background: white;
+  border: 2px solid #3d81bb;
+  color: #3d81bb;
+  margin: 1rem 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.place-btn:active {
+  outline: none;
+}
+.place-btn:focus {
+  outline: none;
+}
+
+.place-btn:hover {
+  background: #3d81bb;
+  color: white;
+}
