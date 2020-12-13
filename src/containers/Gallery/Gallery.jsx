@@ -34,7 +34,7 @@ const Gallery = ({ galleryRef }) => {
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-        className="d-block mx-auto darkmode-ignore"
+        className="d-block mx-auto darkmode-ignore "
       ></iframe>
     </div>
   );

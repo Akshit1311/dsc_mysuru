@@ -16,7 +16,7 @@ const About = ({ aboutRef }) => {
 
   return (
     <div ref={aboutRef} className="about">
-      <h1>About</h1>
+      <h1>Hotspots</h1>
 
       <div className="row">
         <div className="col">

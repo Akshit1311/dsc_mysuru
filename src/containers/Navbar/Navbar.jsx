@@ -18,7 +18,7 @@ const Navbar = ({ aboutRef, galleryRef, contactRef }) => {
             aboutRef.current.scrollIntoView();
           }}
         >
-          About
+          Hotspots
         </span>
         <span
           href=""
